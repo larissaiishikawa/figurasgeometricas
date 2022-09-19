@@ -1,0 +1,79 @@
+
+
+body {
+    background-color: darkolivegreen;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+main {
+    max-width: 600px;
+    width: 60%;
+    margin: 30px auto;
+    flex-wrap: wrap;
+    max-width: fit-content;
+}
+
+
+section div {
+    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+section ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+section ul li {
+    transition: transform .3s;
+}
+
+section ul li:hover {
+    transform: scale(1.4,1.4);
+}
+
+footer {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+.class-info img {
+    width: 650px;
+    height: 400px;
+    align-content: center;
+    
+}
+
+.fotos-deitadas img {
+    width: 300px;
+    height: 220px;
+    border-radius: 5%;
+    
+}
+
+.fotos-retas img {
+    width: 193px;
+    height: 300px;
+    border-radius: 5%;
+}
+
+.class-video video {
+    width: 700px;
+    border-radius: 5%;
+
+}
